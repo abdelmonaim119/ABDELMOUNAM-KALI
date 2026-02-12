@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Admin</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <h1>Admin Panel</h1>
+      <nav aria-label="Main navigation">
+        <a href="/index.html">Home</a>
+        <a href="/admin.html">Admin</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="card">
+        <h2>Owner Access</h2>
+        <p class="owner-note">
+          Only <strong>monaimabdel119@gmail.com</strong> is allowed to make changes to this project.
+          Everyone else has view-only access.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>OAuth Status</h2>
+        <p id="oauth-status">Checking status...</p>
+        <a class="button-link" href="/auth/login">Authenticate with Google</a>
+      </section>
+    </main>
+    <script src="/assets/js/admin.js" defer></script>
+  </body>
+</html>
