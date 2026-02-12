@@ -1,20 +1,33 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Zero to Hero Portfolio
 
-# Run and deploy your AI Studio app
+A full portfolio project using vanilla frontend files and a Flask backend with Google OAuth, Gmail notifications, and Google Tasks automation.
 
-This contains everything you need to run your app locally.
+## Access policy
 
-View your app in AI Studio: https://ai.studio/apps/drive/1TcA1ocqT3v7yb38PFhMCiSwX4n8Dw3id
+- Only **monaimabdel119@gmail.com** is allowed to authenticate and manage backend-changing actions.
+- Any other visitor is considered **read-only** and can only browse/watch the portfolio.
 
-## Run Locally
+## Project page presentation standard
 
-**Prerequisites:**  Node.js
+Each page inside `/projects/` should clearly present:
+1. Context/goal.
+2. Implementation highlights.
+3. Outcome/value.
+
+## Run locally
+
+```bash
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python app.py
+```
+
+Then open `http://localhost:5000`.
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Testing
+
+```bash
+python scripts/run_smoke_test.py
+```

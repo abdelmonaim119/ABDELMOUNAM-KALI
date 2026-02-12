@@ -1,0 +1,70 @@
+:root {
+  color-scheme: light;
+  --bg: #f8fafc;
+  --surface: #ffffff;
+  --text: #1f2937;
+  --accent: #2563eb;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: var(--surface);
+  border-bottom: 1px solid #e5e7eb;
+}
+nav a { margin-left: 1rem; color: var(--accent); text-decoration: none; }
+main { max-width: 980px; margin: 2rem auto; padding: 0 1rem; }
+.hero, .card {
+  background: var(--surface);
+  border-radius: 12px;
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+.project-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+.project-card {
+  background: var(--surface);
+  padding: 1rem;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+}
+.pagination { display: flex; align-items: center; gap: 1rem; margin-top: 1rem; }
+button, .button-link {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  padding: .6rem .9rem;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+}
+label { display: block; margin-top: .8rem; }
+input, textarea {
+  width: 100%;
+  padding: .6rem;
+  margin-top: .3rem;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+}
+footer { text-align: center; padding: 1rem; }
+
+.owner-note {
+  border-left: 4px solid var(--accent);
+  padding-left: .75rem;
+}
+.project-section {
+  margin-top: .9rem;
+}
+.project-section h2 {
+  margin-bottom: .35rem;
+}
