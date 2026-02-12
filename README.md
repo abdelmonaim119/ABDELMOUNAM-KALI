@@ -4,8 +4,7 @@ A full portfolio project using vanilla frontend files and a Flask backend with G
 
 ## Access policy
 
-- Only **monaimabdel119@gmail.com** is allowed to authenticate and manage backend-changing actions.
-- Any other visitor is considered **read-only** and can only browse/watch the portfolio.
+- Any  visitor is considered **read-only** and can only browse/watch the portfolio.
 
 ## Project page presentation standard
 
