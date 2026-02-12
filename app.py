@@ -14,7 +14,7 @@ from googleapiclient.errors import HttpError
 app = Flask(__name__, static_folder='assets', static_url_path='/assets')
 app.secret_key = os.environ.get('FLASK_SECRET_KEY', 'change-me-in-production')
 
-OWNER_EMAIL = 'monaimabdel119@gmail.com'
+OWNER_EMAIL = 'REPLACE_ME'
 SCOPES = [
     'https://www.googleapis.com/auth/gmail.send',
     'https://www.googleapis.com/auth/tasks',
